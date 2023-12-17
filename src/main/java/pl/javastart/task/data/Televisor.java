@@ -1,17 +1,17 @@
-package pl.javastart.task;
+package pl.javastart.task.data;
 
 public class Televisor {
     private boolean isOn;
 
-    void turnOn() {
+    public void turnOn() {
         this.isOn = true;
     }
 
-    void  turnOff() {
+    public void  turnOff() {
         this.isOn = false;
     }
 
-    void showStatus() {
+    public void showStatus() {
         if (isOn) {
             System.out.println("Telewizor jest włączony");
         } else {
